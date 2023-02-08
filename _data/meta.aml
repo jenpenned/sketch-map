@@ -3,14 +3,7 @@ slug: baker-example-page-template
 site_name: Baker Examples
 locale: en_US
 
-headline: This is not a headline. Lorem ipsum dolor sit amet consectetur adipisicing
-
-[byline]
-name: This is not a name
-url: https://www.latimes.com/people/nobody
-
-name: This is not a name
-url: https://www.latimes.com/people/nobody
+headline: Where I've sketched in L.A.
 []
 
 pub_date: 2099-12-31 23:58:00
