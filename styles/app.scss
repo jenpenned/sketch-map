@@ -76,10 +76,10 @@ body {
   .map-container {
     width: 50%;
   }
-  .sketch-container {
+  .sketchContainer {
     width: 50%;
-    .sketch {
-      width: 100%;
+    #sketch {
+      height: 600px;
     }
   }
 }
@@ -101,29 +101,15 @@ body {
 .mapboxgl-popup-content {
   font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
   padding: 0;
-  width: 250px;
+  width: 300px;
+  background-color: rgb(255 255 255 / 0%) !important;
+  .illo {
+    width: 100%;
+  }
 }
 
 .mapboxgl-popup-content-wrapper {
   padding: 1%;
-}
-
-.mapboxgl-popup-content h3 {
-  background: rgb(61, 59, 59);
-  text-align: center;
-  color: #fff;
-  margin: 0;
-  display: block;
-  padding: 15px;
-  font-weight: 700;
-  margin-top: -5px;
-}
-
-.mapboxgl-popup-content h4 {
-  margin: 0;
-  display: block;
-  padding: 10px 3px 10px 10px;
-  font-weight: 400;
 }
 
 .mapboxgl-container {
